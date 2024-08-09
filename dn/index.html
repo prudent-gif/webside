@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HINWATONOU Haqui</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="zone">
+   
+    <div class="zone1">
+        <h1>
+            <u>
+                Formation Rapide et efficase
+            </u>
+        </h1>
+        <div class="digital"><h2>
+            Digital Ninja
+        </h2></div>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa blanditiis totam, illum soluta, voluptate, sunt expedita magni dicta dolores et quod accusantium voluptatibus quaerat repellat sit maxime! Omnis, rerum sequi?
+        </p>
+        <P>
+            La liste des matières que nous faisons
+        </P>
+        <ul>
+            <li class="xx">
+                Naruto
+            </li>
+        </ul>
+        <ul>
+            <li>
+                Sakura
+            </li>
+        </ul>
+        <ul>
+            <li>
+                Sasuke
+            </li>
+        </ul>
+    </div>
+    <div class="zone2">
+        <img src="chrome://branding/content/about-logo.png" alt="">
+    </div>
+</div>
+<br>
+<div class="zone4I">
+ <div class="zone4">
+     <div><P>
+        <strong>
+            Inscription
+        </strong>
+    </P></div>
+    <div class="zone3">
+        
+       <form action="" id="formulaireInscription">
+           <label for="prenom">Ton prenom</label>
+           <input type="text" name="prenom" id="prenom">
+
+           <label for="phone">Ton phone</label>
+           <input type="text" name="phone" id="phone">
+           <button>sinscre</button>
+        </form>
+        <p id="messageErreur"></p>
+        <p id="messageBievenue"></p>
+    </div>
+    <br>
+    <div class="gg">
+        <form action="" method="post" class="toto">
+            <label for="numero">
+                Ton numero
+            </label>
+            <br>
+            <input type="text" name="numero" id="numero" placeholder="Ton numero..." class="jj">
+        </form>
+    </div>
+    <br>
+    <div class="en"><p> <button>envoyer</button> </p></div>
+</div>
+<div class="img"><img src="chrome://branding/content/about-logo.png" alt=""></div>
+</div>
+<hr>
+<div class="zone5">
+   <div class="zone6">
+    
+    <a href="https://www.jetelecharge.com/softs-173-1.php">
+        S'inscrire
+    </a>
+    <p>
+        Cotonou,BENIN
+    </p>
+    <p>
+    Sekandji,Gbago
+    </p>
+    <img src="chrome://branding/content/about-logo.png" alt="">
+</div>
+</div>
+
+<script>
+    document.getElementById("formulaireInscription").addEventListener("submit" , function(event) {
+    event.preventDefault();
+    var prenom = document.getElementById("prenom").value;
+    var phone = document.getElementById("phone").value;
+    var messageErreur = document.getElementById("messageErreur");
+    var messageBienvenue = document.getElementById("messageBienvenue");
+    messageErreur.innerText = "";
+    messageBienvenue.innertText = "";
+    if (prenom === "" || phoe === "") {
+        messageErreur.innerText = "Veuillez remplir tous les champs.";    
+    } else{
+        messageBienvenue.innerText = "Bienvenue, " + prenom + " ! Merci de t'etre inscrit.";
+    }    
+</script>
+
+
+     
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
